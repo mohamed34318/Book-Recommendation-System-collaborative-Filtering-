@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Recommended Books</h2>
+<div class="row">
+    {% for book in recommendations %}
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <img src="{{ book['Image-URL-M'] }}" class="card-img-top" alt="{{ book['Book-Title'] }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ book['Book-Title'] }}</h5>
+                <p class="card-text">by {{ book['Publisher'] }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<a href="/" class="btn btn-primary mt-3">Go Back</a>
+{% endblock %}
