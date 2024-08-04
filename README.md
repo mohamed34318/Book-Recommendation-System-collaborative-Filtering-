@@ -1,5 +1,5 @@
 
-🚀 **Excited to share my latest project: A Book Recommendation System!** 📚✨
+# A Book Recommendation System!** 📚✨
 
 I've developed a content-based Book Recommendation System leveraging Python, Pandas, and Scikit-learn. The project follows a systematic approach to ensure accurate and efficient recommendations.
 
